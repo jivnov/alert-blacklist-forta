@@ -1,8 +1,8 @@
-from forta_agent import Finding, FindingSeverity, FindingType, TransactionEvent
+from forta_agent import Finding, FindingSeverity, FindingType
 from src.const import CONTRACT_ADDRESS, BLACKLISTED_ADDRESSES
 
 
-def handle_transaction(transaction_event: TransactionEvent):
+def handle_transaction(transaction_event):
     findings = []
     address_from = transaction_event.from_
     address_to = transaction_event.to

@@ -7,3 +7,9 @@ This agent provides alert for blacklisted address interacting with Compound Prot
 ## Test Data
 
 The agent behaviour was verified with the addresses in blacklist and out of blacklist
+
+## Start
+
+```
+npm start
+```
